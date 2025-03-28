@@ -19,6 +19,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import Toast, {BaseToast, ErrorToast} from 'react-native-toast-message';
 import UpdateProfile from './Screens/UpdateProfile/UpdateProfile';
 import AdminScreen from './Screens/AdminScreen';
+//import * as SplashScreen from 'expo-splash-screen';
 
 const toastConfig = {
   success: props => (
